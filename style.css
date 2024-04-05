@@ -1,0 +1,99 @@
+body {
+    background-color: #FFFEFE;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 10px;
+    background-color: #fffefe;
+    box-shadow: 1px 1px 1px #ECECEC;
+}
+
+main {
+  margin: 45px;
+}
+
+#show-button {
+ padding: 10px 20px;
+ background-color: #0d60dd;
+ border: none;
+ border-radius: 5px;
+ box-shadow: 2px 2px 2px #0548ac;
+ color: #FFFEFE;
+ cursor: pointer;
+}
+
+.favDialog {
+  border: 1px solid #1749d1;
+  border-radius: 5px;
+}
+
+.data {
+  max-width: 1200px;
+  display: flex;
+  flex-flow: wrap;
+  margin: 30px auto;
+  justify-content: center;
+}
+
+.author-sec {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #dd590d;
+}
+
+h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #fff;
+    padding: 15px 10px 15px 5px;
+}
+.container {
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container a {
+    font-size: 25px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #0d60dd;
+    width: max-content;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 5px 10px;
+    width: 20vw;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.card-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.button {
+    margin-left: 10px;
+}
+
+.btn {
+    background-color: #0d60dd;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    color: #fffefe;
+    box-shadow: 2px 2px 2px #0548ac;
+    cursor: pointer;
+}
